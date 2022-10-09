@@ -1,0 +1,82 @@
+
+
+
+
+#acc {
+  padding-top: 100px;
+  background: url("../img/nb.svg");
+
+  h1 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #263238;
+    padding-bottom: 50px;
+  }
+  .acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--tek{
+
+      details{
+        margin-top: 40px;
+        width: 1100px;
+        height: 60px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(8, 35, 48, 0.24);
+        border-radius: 10px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        transition: .4s;
+        &:hover{
+          background: rgba(0, 0, 0, 0.4);
+       transform: scale(1.1);
+        }
+
+        summary{
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0.15px;
+          color: #000000;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          margin-left: 30px;
+
+          p{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.44px;
+            color: #000000;
+            padding-top: 50px;
+
+          }
+        }
+
+      }
+    }
+      }
+  .accbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+      margin-top: 40px;
+   padding: 10px 30px;
+      border-radius: 10px;
+      background: transparent;
+      color: black;
+      transition: .4s;
+      &:hover{
+        background: green;
+        color: white;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

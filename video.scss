@@ -1,0 +1,66 @@
+#video{
+  background: url("../img/back_img_5.svg");
+  h1{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+  .buttonn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--btn{
+      width: 187px;
+      height: 51px;
+      background: #8DB932;
+      border-radius: 20px 0px 0px 20px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      color: white;
+    }
+    &--btn2{
+      width: 167px;
+      height: 51px;
+      border-radius:  0px 20px 20px 0;
+      border: 1px dashed;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+  .video{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--vidos{
+      video{
+        width: 435px;
+        height: 215px;
+        border: 10px solid rgba(45, 187, 255, 0.2);
+        filter: drop-shadow(0px 16px 24px rgba(69, 178, 234, 0.24)) drop-shadow(0px 4px 8px rgba(69, 178, 234, 0.3)) drop-shadow(0px 8px 16px rgba(15, 177, 255, 0.2));
+        border-radius: 8px;
+      }
+    }
+    &--vidoss{
+      video{
+        width: 535px;
+        height: 315px;
+        border: 10px solid rgba(45, 187, 255, 0.2);
+        filter: drop-shadow(0px 16px 24px rgba(69, 178, 234, 0.24)) drop-shadow(0px 4px 8px rgba(69, 178, 234, 0.3)) drop-shadow(0px 8px 16px rgba(15, 177, 255, 0.2));
+        border-radius: 8px;
+        position: relative;
+      }
+      &__title{
+        h1 p{
+          position: absolute;
+          top: 40px;
+        }
+      }
+    }
+
+  }
+}

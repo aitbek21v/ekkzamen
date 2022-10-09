@@ -1,0 +1,400 @@
+@media (max-width: 1440px) {
+  .container{
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .container{
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  #header .header {
+    flex-direction: column;
+  }
+  #header .header2 {
+    padding-top: 11px;
+    flex-direction: column;
+  }
+
+  #hero .hero--title__block {
+    margin-left: 211px;
+  }
+  #hero .hero--title h1 {
+    font-size: 27px;
+  }
+  #hero .blocks {
+
+    flex-direction: column;
+  }
+  #hero .blocks--block {
+    margin: 20px 0;
+  }
+
+
+  #block .block {
+    display: flex;
+    flex-direction: column;
+  }
+  #block .block--block {
+    margin: 20px 0;
+  }
+  #slider .slider {
+    flex-direction: column;
+  }
+  #slider .slider--img {
+    padding: 20px 0;
+  }
+  #acc .acc--tek details {
+    width: 883px;}
+  #video .video {
+    flex-direction: column;
+  }
+
+
+}
+
+
+  @media (max-width: 992px) {
+    .container {
+      width: 90%;
+    }
+    #header .header2--nav a {
+      font-size: 7px;}
+    #header .header2--nav button {
+      width: 123px;
+      height: 36px;}
+    #hero .hero--title__block {
+      margin-left: 78px;
+    }
+
+
+
+
+  }
+
+
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    #header .header--nav a {
+      font-size: 11px;}
+    #header .header--nav button {
+      width: 121px;
+      height: 40px;}
+
+    #header .header2--nav button {
+      width: 96px;
+      height: 33px;
+    }
+    #header .header2--nav a {
+      font-size: 5px;
+    }
+    #hero .hero--title__block {
+      margin-left: 87px;
+    }
+
+    #usta .usta {
+      flex-direction: column;
+    }
+    #usta .usta--block {
+      margin: 20px 0;}
+    #nasha p {
+      font-size: 9px;}
+    #girl h1 {
+      font-size: 36px;}
+    #girl .girl {
+      flex-direction: column;}
+    #white .white--block__disp {
+      flex-direction: column;}
+    #white .white--block {
+      width: 1080px;
+      height: 817px;}
+    #acc h1 {
+      font-size: 36px;}
+    #acc .acc--tek details {
+      width: 629px;
+    }
+    #tabs .tabs--img {
+      flex-direction: column;
+    }
+    #footer .footer {
+      flex-direction: column;}
+    #footer .footer--title {
+      padding: 50px;
+    }
+
+
+
+  }
+  @media (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+    #header .header--nav button {
+      margin-left: 180px;
+    }
+    #header .header2--nav a {
+      font-size: 11px;
+    }
+    #hero .hero--title h1 {
+      font-size: 19px;
+    }
+    #usta h1 {
+      font-size: 37px;}
+    #nasha p {
+      font-size: -1px;
+    }
+    #nasha p {
+      font-size: 18px;
+    }
+    #white .white--block h1 {
+      font-size: 24px;}
+    #acc h1 {
+      font-size: 25px;
+    }
+    #acc .acc--tek details {
+      width: 474px;
+    }
+    #tabs .tabs--img img {
+      padding: 20px 20px;
+    }
+    #video h1 {
+      font-size: 31px;}
+
+
+
+
+
+  }
+
+
+  @media (max-width: 452px) {
+    .container {
+      width: 90%;
+    }
+    #header .header--nav a {
+      font-size: 14px;
+    }
+    #header .header--nav button {
+      margin-left: 206px;
+      margin-top: -60px;
+    }
+    #header .header2--nav a {
+      font-size: 7px;
+    }
+    #hero .hero--title h1 {
+      font-size: 15px;
+    }
+    #hero .hero--title__block p {
+      font-size: 18px;}
+    #hero .hero--title__block {
+      margin-left: 209px;
+    }
+    #usta h1 {
+      font-size: 29px;
+    }
+    #nasha .nasha--btn {
+      padding-bottom: 68px;
+      display: flex;
+      flex-direction: column;
+    }
+    #nasha .nasha--btn__btnn {
+      margin: 20px 0;}
+    #girl .girl--title h5 {
+      font-size: 15px;
+      padding-bottom: 160px;}
+    #girl .girl--title h2 {
+      font-size: 15px;}
+    #girl .girl--title p {
+      font-size: 12px;}
+    #slider h1 {
+      font-size: 24px;}
+    #acc .acc--tek details {
+      width: 372px;
+    }
+    #video .video--vidos video {
+      width: 308px;
+      height: 197px;}
+    #video .video--vidoss video {
+      width: 363px;
+      height: 275px;}
+
+
+
+
+
+  }
+
+
+  @media (max-width: 400px) {
+    .container {
+      width: 90%;
+    }
+    #header .header--nav a {
+      font-size: 12px;
+    }
+    #header .header2--nav a {
+      font-size: 10px;
+    }
+    #hero .hero--title h1 {
+      font-size: 11px;
+    }
+    #usta h1 {
+      font-size: 24px;
+    }
+    #nasha h1 {
+      font-size: 32px;}
+    #nasha p {
+      font-size: 16px;
+    }
+    #girl h1 {
+      font-size: 21px;
+    }
+    #girl .girl--title h5 {
+      font-size: 11px;}
+    #white .white--block h1 {
+      font-size: 20px;
+    }
+    #slider h1 {
+      font-size: 20px;
+    }
+    #acc h1 {
+      font-size: 21px;
+    }
+    #acc .acc--tek details {
+      width: 312px;
+    }
+    #acc .acc--tek details summary {
+      font-size: 15px;}
+    #video .buttonn--btn {
+      width: 144px;
+      height: 47px;}
+    #video .buttonn--btn2 {
+      width: 140px;
+      height: 46px;}
+    #video .video--vidos video {
+      width: 285px;
+      height: 175px;
+    }
+    #video .video--vidoss video {
+      width: 330px;
+      height: 247px;
+    }
+    #video h1 {
+      font-size: 25px;
+    }
+
+
+
+
+  }
+
+
+  @media (max-width: 380px) {
+    .container {
+      width: 90%;
+    }
+    #hero .hero--title h1 {
+      font-size: 16px;
+    }
+    #nasha p {
+      font-size: 15px;
+    }
+    #white .white--block h1 {
+      font-size: 16px;
+    }
+    #video .video--vidos video {
+      width: 247px;
+      height: 155px;
+    }
+    #video .video--vidoss video {
+      width: 297px;
+      height: 215px;
+    }
+    #acc .accbtn button {
+      padding: 14px 14px;}
+    #footer .footer--title {
+      margin-left: -100px;
+    }
+
+
+
+  }
+
+
+  @media (max-width: 320px) {
+    .container {
+      width: 90%;
+    }
+    #header .header--nav button {
+      width: 81px;
+      height: 34px;
+    }
+    #header .header2--nav button {
+      width: 88px;}
+    #header .header2--nav a {
+      font-size: 7px;
+    }
+    #hero .hero--title h1 {
+      font-size: 11px;
+    }
+    #usta .long img {
+      padding: 0px 0px;
+    }
+    #nasha h1 {
+      font-size: 26px;
+    }
+    #nasha p {
+      font-size: 12px;
+    }
+    #girl h1 {
+      font-size: 16px;
+    }
+    #girl .girl--title p {
+      font-size: 10px;
+    }
+    #girl .girl--title h2 {
+      font-size: 12px;
+    }
+    #girl .girl--title h5 {
+      font-size: 8px;
+    }
+    #white .white--block__disp--img p {
+      font-size: 11px;}
+    #slider .button button {
+      width: 195px;
+      height: 43px;}
+    #acc h1 {
+      font-size: 19px;
+    }
+    #acc .acc--tek details summary {
+      font-size: 11px;
+    }
+    #acc .acc--tek details {
+      width: 257px;
+    }
+    #acc .accbtn button {
+      padding: 13px 8px;
+    }
+    #video h1 {
+      font-size: 17px;
+    }
+    #video .video--vidos video {
+      width: 219px;}
+    #video .video--vidoss video {
+      width: 270px;}
+
+
+  }
+
+
+

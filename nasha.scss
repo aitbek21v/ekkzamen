@@ -1,0 +1,58 @@
+
+
+
+#nasha{
+  padding-top: 160px;
+  h1{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #263238;
+    padding-bottom: 30px;
+  }
+  .nasha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    &--btn{
+      padding-bottom: 30px;
+      &__btn{
+        width: 155px;
+        height: 51px;
+        background: #8DB932;
+        color: white;
+        border-radius: 20px 0px 0px 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      &__btnn{
+        width: 153px;
+        height: 51px;
+        border: 1px dashed;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+      }
+      &__btn2{
+        width: 153px;
+        height: 51px;
+        border: 1px dashed;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+      }
+    }
+  }
+  p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #263238;
+
+  }
+}
