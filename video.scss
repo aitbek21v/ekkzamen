@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     &--btn{
+      border: none;
       width: 187px;
       height: 51px;
       background: #8DB932;
@@ -23,10 +24,10 @@
       color: white;
     }
     &--btn2{
+      border: 1px solid #AFBFC7;
       width: 167px;
       height: 51px;
       border-radius:  0px 20px 20px 0;
-      border: 1px dashed;
       flex: none;
       order: 0;
       flex-grow: 0;
@@ -61,6 +62,10 @@
         }
       }
     }
+
+
+
+
 
   }
 }

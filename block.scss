@@ -2,16 +2,20 @@
 
 
 #block{
+  background: #a9d8da;
   padding-top: 50px;
+  padding-bottom: 150px;
   .block{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 0;
     &--block{
+      margin: 20px 0;
       width: 253px;
       height: 650px;
-      background: wheat;
+      background: white;
       border-radius: 20px;
       img{
         padding-top: 30px;
@@ -56,6 +60,7 @@ h1{
         margin-left: 15px;
       }
       &__btns{
+        display: flex;
         padding-bottom: 20px;
         margin-left: 20px;
         &--btn{
@@ -69,7 +74,7 @@ h1{
           flex-grow: 0;
         }
         &--btnn{
-          border: 1px dashed;
+          border: 1px solid #AFBFC7;
           width: 51.44px;
           height: 25px;
           flex: none;
@@ -118,13 +123,14 @@ h1{
       &__buttonn{
         width: 211px;
         height: 39px;
-        border: 1px dashed;
+        border: 1px solid #AFBFC7;
         border-radius: 10px;
         margin-left: 20px;
         margin-top: 10px;
       }
       &__btnnnn{
         button{
+          border: none;
           margin-top: 20px;
           margin-left: 20px;
           width: 211px;

@@ -17,6 +17,7 @@
     justify-content: center;
     padding-top: 20px;
     &--btn{
+      display: flex;
       padding-bottom: 30px;
       &__btn{
         width: 155px;
@@ -31,7 +32,7 @@
       &__btnn{
         width: 153px;
         height: 51px;
-        border: 1px dashed;
+        border: 1px solid;
         flex: none;
         order: 2;
         flex-grow: 0;
@@ -39,7 +40,7 @@
       &__btn2{
         width: 153px;
         height: 51px;
-        border: 1px dashed;
+        border: 1px solid;
         flex: none;
         order: 2;
         flex-grow: 0;

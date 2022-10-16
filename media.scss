@@ -9,7 +9,18 @@
   .container{
     width: 90%;
   }
-}
+  #header .header--nav a {
+    font-size: 17px;}
+  #header .header2--nav a {
+    font-size: 12px;}
+  #video .video--vidoss video {
+    width: 452px;}
+  #video .video--vidos video {
+    width: 343px;}
+
+
+
+  }
 
 
 @media (max-width: 1024px) {
@@ -22,6 +33,9 @@
   #header .header2 {
     padding-top: 11px;
     flex-direction: column;
+  }
+  #header .header2--nav a {
+    font-size: 8px;
   }
 
   #hero .hero--title__block {
@@ -39,10 +53,7 @@
   }
 
 
-  #block .block {
-    display: flex;
-    flex-direction: column;
-  }
+
   #block .block--block {
     margin: 20px 0;
   }
@@ -55,8 +66,7 @@
   #acc .acc--tek details {
     width: 883px;}
   #video .video {
-    flex-direction: column;
-  }
+    flex-direction: column;}
 
 
 }
@@ -84,6 +94,33 @@
   @media (max-width: 768px) {
     .container {
       width: 90%;
+    }
+    #white .white--block__disp--img {
+      flex-direction: column;
+    }
+    #white .white--block {
+      width: 1080px;
+      height: 1059px;
+    }
+    #white .white--block {
+      height: 1054px;
+    }
+    #white .white--block {
+      width: 1080px;
+      height: 1068px;
+    }
+    #header .header--nav a {
+      font-size: 11px;
+      display: none;
+    }
+    #header .header2--nav a {
+      font-size: 5px;
+      display: none;
+    }
+
+
+    #header .header--nav button {
+      margin-top: 20px;
     }
     #header .header--nav a {
       font-size: 11px;}
@@ -135,9 +172,19 @@
 
 
   }
+
+
   @media (max-width: 576px) {
     .container {
       width: 90%;
+    }
+    #white .white--block {
+      width: 1080px;
+      height: 1116px;
+    }
+
+    #header .header--nav button {
+      margin-left: 2px;
     }
     #header .header--nav button {
       margin-left: 180px;
@@ -181,63 +228,120 @@
     .container {
       width: 90%;
     }
-    #header .header--nav a {
-      font-size: 14px;
+    #girl .girl img {
+      width: 407px;
+    }
+    #block .block {
+      justify-content: center;
+    }
+    #hero .hero--title__block {
+      width: 295px;
+    }
+    #hero .hero--title__block {
+      margin-left: 127px;
+    }
+    #hero .hero--title__block {
+      margin-left: 86px;
     }
     #header .header--nav button {
-      margin-left: 206px;
-      margin-top: -60px;
-    }
-    #header .header2--nav a {
-      font-size: 7px;
-    }
-    #hero .hero--title h1 {
-      font-size: 15px;
-    }
-    #hero .hero--title__block p {
-      font-size: 18px;}
-    #hero .hero--title__block {
-      margin-left: 209px;
-    }
-    #usta h1 {
-      font-size: 29px;
-    }
-    #nasha .nasha--btn {
-      padding-bottom: 68px;
-      display: flex;
-      flex-direction: column;
-    }
-    #nasha .nasha--btn__btnn {
-      margin: 20px 0;}
-    #girl .girl--title h5 {
-      font-size: 15px;
-      padding-bottom: 160px;}
-    #girl .girl--title h2 {
-      font-size: 15px;}
-    #girl .girl--title p {
-      font-size: 12px;}
-    #slider h1 {
-      font-size: 24px;}
-    #acc .acc--tek details {
-      width: 372px;
-    }
-    #video .video--vidos video {
-      width: 308px;
-      height: 197px;}
-    #video .video--vidoss video {
-      width: 363px;
-      height: 275px;}
+      margin-left: 1px;
+
+      header .header--nav button {
+        margin-left: 1px;
+        margin-top: 19px;
+      }
+
+      #header .header--nav button {
+        margin-left: 4px;
+      }
+
+      #header .header--nav a {
+        font-size: 14px;
+      }
+
+      #header .header--nav button {
+        margin-left: 206px;
+        margin-top: -60px;
+      }
+
+      #header .header2--nav a {
+        font-size: 7px;
+      }
+
+      #hero .hero--title h1 {
+        font-size: 15px;
+      }
+
+      #hero .hero--title__block p {
+        font-size: 18px;
+      }
+
+      #hero .hero--title__block {
+        margin-left: 209px;
+      }
+
+      #usta h1 {
+        font-size: 29px;
+      }
+
+      #nasha .nasha--btn {
+        padding-bottom: 68px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #nasha .nasha--btn__btnn {
+        margin: 20px 0;
+      }
+
+      #girl .girl--title h5 {
+        font-size: 15px;
+        padding-bottom: 160px;
+      }
+
+      #girl .girl--title h2 {
+        font-size: 15px;
+      }
+
+      #girl .girl--title p {
+        font-size: 12px;
+      }
+
+      #slider h1 {
+        font-size: 24px;
+      }
+
+      #acc .acc--tek details {
+        width: 372px;
+      }
+
+      #video .video--vidos video {
+        width: 308px;
+        height: 197px;
+      }
+
+      #video .video--vidoss video {
+        width: 363px;
+        height: 275px;
+      }
 
 
-
-
-
+    }
   }
 
 
   @media (max-width: 400px) {
     .container {
       width: 90%;
+    }
+    #girl .girl img {
+      width: 347px;
+    }
+    #hero .hero--title__block p {
+      font-size: 17px;}
+    #header .header--nav button {
+      margin-left: 4px;
+      margin-top: 18px;
     }
     #header .header--nav a {
       font-size: 12px;
@@ -303,6 +407,13 @@
     .container {
       width: 90%;
     }
+
+    #nasha .nasha--btn {
+      display: flex;
+      flex-direction: column;}
+    #nasha p {
+      font-size: 11px;
+    }
     #hero .hero--title h1 {
       font-size: 16px;
     }
@@ -335,12 +446,24 @@
     .container {
       width: 90%;
     }
+    #girl .girl img {
+      width: 270px;
+    }
+    #hero .hero--title__block {
+      width: 260px;
+    }
+    #white .white--block {
+      width: 1080px;
+      height: 1116px;
+      margin-top: 80px;
+    }
     #header .header--nav button {
       width: 81px;
       height: 34px;
     }
     #header .header2--nav button {
-      width: 88px;}
+      width: 88px;
+    }
     #header .header2--nav a {
       font-size: 7px;
     }
@@ -369,10 +492,12 @@
       font-size: 8px;
     }
     #white .white--block__disp--img p {
-      font-size: 11px;}
+      font-size: 11px;
+    }
     #slider .button button {
       width: 195px;
-      height: 43px;}
+      height: 43px;
+    }
     #acc h1 {
       font-size: 19px;
     }
@@ -389,11 +514,20 @@
       font-size: 17px;
     }
     #video .video--vidos video {
-      width: 219px;}
+      width: 219px;
+    }
     #video .video--vidoss video {
-      width: 270px;}
+      width: 270px;
+    }
+    #hero .hero--title__block {
+      margin-left: 106px;
+    }
 
 
+
+    #hero .hero--title__block {
+      width: 308px;
+    }
   }
 
 
